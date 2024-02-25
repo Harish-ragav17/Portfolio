@@ -10,9 +10,8 @@ body {
   height: 100%;
 }
 #Header {
-  margin: 1px;
   width: 100%;
-  padding: 9px;
+  padding: 10px;
   background-color: #272643;
   position: fixed;
 }
@@ -27,7 +26,7 @@ body {
   display: inline-block;
   text-decoration: none;
   cursor: pointer;
-  font-size: 18px;
+  font-size: 17px;
   font-weight: bold;
   padding: 3px;
   border-bottom: 2px solid transparent;
@@ -35,6 +34,7 @@ body {
 #Header ul li a {
   text-decoration: none;
   color: rgb(255, 255, 255);
+  letter-spacing: 1px;
 }
 #Header ul li:hover {
   border-bottom: 2px solid red;
@@ -53,11 +53,10 @@ span {
 }
 #img img {
   width: 200px;
-  margin-left: 50px;
   border-radius: 50px;
 }
 #home-content {
-  margin: 50px 30px 2px 30px;
+  margin-top: 100px;
   padding: 20px;
   display: flex;
   justify-content: center;
@@ -69,15 +68,18 @@ span {
   font-family: "Nunito Sans", sans-serif;
   word-spacing: 5px;
   padding: 20px;
+  margin-left: 50px;
+  text-align: center;
 }
 #home-content h2 span {
-  margin-left: 100px;
+  color: #19183b;
 }
 
-#about-div {
+.outer-div {
   height: fit-content;
   padding: 30px;
 }
+
 #about-content h2 {
   font-size: 23px;
 }
@@ -90,33 +92,32 @@ span {
   line-height: 30px;
 }
 
-#education-div {
-  height: fit-content;
-  padding: 20px;
+#skills-content h2 {
+  font-size: 23px;
 }
+#skills-content ul {
+  font-size: 18px;
+  line-height: 30px;
+}
+
 #edu {
   padding: 10px;
   border-top: 2px solid black;
 }
 #education-content {
   padding: 30px;
-  width: fit-content;
-  border: none;
+  display: flex;
+  justify-content: space-evenly;
 }
-#education-content h2 {
-  color: rgb(0, 0, 0);
+#education-content .educards {
   width: fit-content;
-}
-#education-content h3 {
-  color: black;
-  margin-left: 20px;
-  width: fit-content;
-  font-weight: 200;
-}
-
-#project-div {
-  height: fit-content;
   padding: 20px;
+  background-color: #343353;
+  color: white;
+  border-radius: 20px;
+}
+.educards h3 {
+  font-weight: 500;
 }
 #pro {
   padding: 10px;
@@ -127,16 +128,6 @@ span {
   padding: 30px;
   width: fit-content;
   border: none;
-}
-#project-content h2 {
-  color: rgb(0, 0, 0);
-  width: fit-content;
-}
-#project-content h3 {
-  color: black;
-  margin-left: 20px;
-  width: fit-content;
-  font-weight: 200;
 }
 
 #footer {
