@@ -201,3 +201,25 @@ span {
   cursor: pointer;
    border-bottom: 1px solid red;
 }
+
+#skills-slider{
+  height:140px;
+  padding: 20px;
+}
+#skills-flex{
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+#skills-flex div{
+  text-align: center;
+  cursor: pointer;
+}
+#skills-flex div img{
+  height: 80px;
+}
+#skills-flex div h2{
+  font-size: 17px;
+}
